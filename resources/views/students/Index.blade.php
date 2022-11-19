@@ -6,7 +6,15 @@
         <button><a href="{{ route('students.create') }}">Create New Student</a></button>
     <br>
 
-    <table>
+    <table style="
+            border: 1px solid black;
+            border-radius: 10px;
+            border-collapse: separate;
+            justify-content: space-between;
+            font-size: 20px;
+            font-family:Arial;
+            text-align: center;
+            margin: 80px;">
         <tr>
             <th>No.</th>
             <th>Full Name</th>

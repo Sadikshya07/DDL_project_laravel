@@ -21,7 +21,7 @@
       <label>Name:</label></br><input type="text" placeholder="Enter your full name." name="name" autocomplete="off"value="{{$student->name}}"></br>
       <label> Email:</label></br><input type="email" placeholder="Enter Your Email" name="email" autocomplete="off"value="{{$student->email}}"></br>
       <label> Batch:</label></br><input type="number" placeholder="Enter Your Batch" name="batch" autocomplete="off"value="{{$student->batch}}"></br>
-      <label> MobileNo:</label></br><input type="number" placeholder="Mobile Number" name="mobile" autocomplete="off"value="{{$student-mobile>}}"></br>
+      <label> MobileNo:</label></br><input type="number" placeholder="Mobile Number" name="mobile" autocomplete="off"value="{{$student->mobile}}"></br>
     </br>
       <button type="submit"name="submit">UPDATE</button>
     </form> 
